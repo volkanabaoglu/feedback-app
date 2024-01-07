@@ -17,9 +17,10 @@ function List() {
       </div>
       <div>
         {commentList.map((comment, index) => {
-          <div key={index}>
+          return(
+            <div key={index}>
             <Comment commentText={comment} />
-          </div>;
+          </div>          )
         })}
       </div>
     </div>

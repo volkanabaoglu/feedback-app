@@ -1,3 +1,4 @@
+import "../App.css"
 import React, { useState } from "react";
 const buttonValues = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -22,7 +23,7 @@ function Form({onSubmit}) {
 
   return (
     <div>
-      <form>
+      <form className="form">
         <div>
           <h3>How would you rate your service with us ?</h3>
         </div>
